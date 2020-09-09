@@ -1,6 +1,13 @@
+buildscript {
+    repositories {
+        google()
+    }
+}
+
 plugins {
     id('com.android.application')
     id('com.getkeepsafe.dexcount')
+    id('tqrg.leafactor.ci') version '0.0.2'
     id('com.github.triplet.play') version '2.7.5' apply false
 }
 
